@@ -166,3 +166,7 @@ dQ/dn <= 0: 7/19
 # Disclaimer
 
 This code works for a range of use cases, but can have lower accuracy as the non-linearity of the system increases, or as the data set size decreases. For these use cases, a potential solution to this problem might be finding sufficiently good hyperparameters for the regularization terms used in this code's version of the Levenberg-Marquardt algorithm.
+
+# Acknowledgement
+
+This work was performed during a summer research internship advised by Professor Chen Ding. Dylan McKellips pointed me to the "Dynamical approach to Zipf’s law" paper that this work is based on and provided advice for writing the code. This work was funded by an NSF REU grant.
